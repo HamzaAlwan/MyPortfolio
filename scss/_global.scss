@@ -1,0 +1,168 @@
+body {
+  @include body-font;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @include heading-font;
+}
+
+.btn-xl {
+  text-transform: uppercase;
+  padding: 1.5rem 3rem;
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+}
+
+.bg-black {
+  background-color: $black !important;
+}
+
+.rounded-pill {
+  border-radius: 5rem;
+}
+
+
+html { font-family: 'Roboto', sans-serif;font-size:16px;line-height:1em;height:100%;}
+
+body {
+  background: #ffffff;
+  background: -moz-linear-gradient(-45deg, #ffffff 0%, #ffffff 50%, #F2F2F2 50%, #F2F2F2 50%, #F2F2F2 100%);
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#ffffff), color-stop(50%,#ffffff), color-stop(50%,#F2F2F2), color-stop(50%,#F2F2F2), color-stop(100%,#F2F2F2));
+  background: -webkit-linear-gradient(-45deg, #ffffff 0%,#ffffff 50%,#F2F2F2 50%,#F2F2F2 50%,#F2F2F2 100%);
+  background: -o-linear-gradient(-45deg, #ffffff 0%,#ffffff 50%,#F2F2F2 50%,#F2F2F2 50%,#F2F2F2 100%);
+  background: -ms-linear-gradient(-45deg, #ffffff 0%,#ffffff 50%,#F2F2F2 50%,#F2F2F2 50%,#F2F2F2 100%);
+  background: linear-gradient(135deg, #ffffff 0%,#ffffff 50%,#F2F2F2 50%,#F2F2F2 50%,#F2F2F2 100%);
+}
+
+*,:before,:after{
+-moz-box-sizing:border-box;
+-webkit-box-sizing:border-box;
+box-sizing:border-box;
+}
+
+h1, h2 {
+  text-align: center;
+  line-height: 20px
+}
+h1 {
+    color: rgba(0,0,0,.8);
+}
+
+h2 {
+  color: rgba(0,0,0,.2);
+}
+
+.social-container {
+	margin:0 auto;
+  padding: 40px 0;
+	width:200px;
+  height:100%;
+}
+
+/* Add this ID to a section or something you want to change the background-color */
+#social-section {
+  padding:60px 0;
+  -webkit-transition: all .2s ease-out;
+-moz-transition: all .2s ease-out;
+-ms-transition: all .2s ease-out;
+-o-transition: all .2s ease-out;
+transition: all .2s ease-out;
+}
+
+/* Button Styles */
+.social-container a {
+display: block;
+width:200px;
+line-height: 40px;
+border-radius: 7px;
+border: 1px solid rgba(0,0,0,.1);
+color: rgb(0, 0, 0);
+margin: 10px 0;
+text-decoration: none;
+text-align:center;
+}
+
+.social-container a::before {
+  background-color: transparent;
+  bottom: 0;
+  content: '';
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.social-container a i {
+margin-right: 15px;   
+}
+
+.social-container a:hover  {
+border: 1px solid rgba(255,255,255,.3);
+color: rgba(255,255,255,.6);
+}
+
+.facebook {
+  border: 1px solid #3b5998 !important;
+}
+.linkedin {
+  border: 1px solid #0077B5 !important;
+}
+.github {
+  border: 1px solid #4a4c4d !important;
+}
+/* Hover background colors */
+.facebook:hover::before {
+  background-color: #3b5998;
+}
+.linkedin:hover::before {
+  background-color: #0077B5;
+}
+.github:hover::before {
+  background-color: #4a4c4d;
+}
+
+.social-container a,
+.social-container a::before {
+-webkit-transition: all .2s ease-in;
+-moz-transition: all .2s ease-in;
+-ms-transition: all .2s ease-in;
+-o-transition: all .2s ease-in;
+transition: all .2s ease-in;
+}
+
+#img {
+  border-radius: 50%;
+  width: 900px;
+  height: 400px;
+}
+
+#name {
+  font-size: 90px;
+  font-family: Audiowide;
+}
+
+#work {
+  font-size: 40px;
+  font-family: Rajdhani;
+}
+
+#star {
+  color: rgb(255, 218, 148);
+  background-color: rgb(255, 218, 148);
+  height: 5px;
+  width: 190px;
+}
+
+#line {
+  color: rgb(253, 203, 109);
+  background-color: rgb(253, 203, 109);
+  height: 5px;
+  width: 750px;
+}

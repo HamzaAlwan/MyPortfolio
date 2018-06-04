@@ -1,0 +1,33 @@
+{
+    "title": "My Portfolio",
+    "name": "MyPortfolio",
+    "version": "1.0.0",
+    "description": "Portfolio built by bootstrap and gulp",
+    "keywords": [
+        "css",
+        "sass",
+        "html",
+        "responsive",
+        "theme",
+        "template"
+    ],
+    "homepage": "#",
+    "license": "MIT",
+    "author": "Hamza",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/HamzaAlwan/MyPortfolio.git"
+    },
+    "dependencies": {
+        "bootstrap": "4.1.1",
+        "jquery": "3.3.1"
+    },
+    "devDependencies": {
+        "browser-sync": "2.24.2",
+        "gulp": "^3.9.1",
+        "gulp-clean-css": "3.9.3",
+        "gulp-header": "2.0.5",
+        "gulp-rename": "^1.2.2",
+        "gulp-sass": "4.0.1"
+    }
+}

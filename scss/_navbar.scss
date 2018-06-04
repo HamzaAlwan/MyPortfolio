@@ -1,0 +1,41 @@
+.navbar-custom {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: fade-out($black, 0.4);
+  transition: all .5s ease-in;
+  .navbar-brand {
+    text-transform: uppercase;
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+    font-weight: 700;
+  }
+  .navbar-nav {
+    .nav-item {
+      .nav-link {
+        text-transform: uppercase;
+        font-size: 0.8rem;
+        font-weight: 700;
+        letter-spacing: 0.1rem;
+      }
+    }
+  }
+}
+
+.solid {
+  background-color: fade-out($black, 0.3);
+}
+
+.navbar.transparent {
+  background-color:rgba(0,0,0,0) !important;
+  transition: all .5s ease-in;
+  #na {
+    color: rgb(0, 0, 0) !important;
+  }
+}
+
+.navbar .navbar-nav > li > a:hover, .navbar-nav > li > a:focus {
+	background: rgba(0,0,0,0) !important;
+	color: #64cbff !important;
+  box-shadow: inset 0 0 0 2px #3a7999 !important;
+  border-radius: 15px;
+}
