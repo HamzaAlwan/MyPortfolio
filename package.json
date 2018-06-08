@@ -4,8 +4,8 @@
     "version": "1.0.0",
     "description": "Portfolio built by bootstrap and gulp",
     "scripts": {
-    "start": "gulp dev"
-},
+        "start": "gulp dev"
+    },
     "keywords": [
         "css",
         "sass",
