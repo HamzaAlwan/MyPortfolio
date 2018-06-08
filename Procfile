@@ -1,1 +1,1 @@
-web: gulp dev gulpfile.js
+web: gulp dev
