@@ -65,9 +65,8 @@ gulp.task('css', ['css:compile', 'css:minify']);
 gulp.task('default', ['css', 'vendor']);
 
 // Configure the browserSync task
-gulp.task('browserSync', function() {
+gulp.task('browserSync', function() {	
   browserSync({
-    port: process.env.PORT || 3000,
     server: {
       baseDir: "./"
     }
