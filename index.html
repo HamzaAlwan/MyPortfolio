@@ -12,8 +12,10 @@
 
     <!-- Bootstrap core CSS -->
     <link href="libraries/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Acme|Audiowide|Orbitron|Rajdhani|Righteous|Russo+One|Patrick+Hand"
+    <link href="https://fonts.googleapis.com/css?family=Acme|Audiowide|Nova+Square|Orbitron|Rajdhani|Aldrich|Righteous|Russo+One|Patrick+Hand"
     rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Oswald:300' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu|Cabin|Varela" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
     crossorigin="anonymous">
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -27,14 +29,14 @@
 
   </head>
 
-  <body>
+  <body id="Home">
 
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
       <div class="container">
-        <a id="logo" href="#head" class="pull-left">
-          <img style="display: inline-block; width: 40px;" src="/img/logo.png">
-          <a id="na" style="margin-left: 5px" class="navbar-brand" href="#head"> My Portfolio</a>
+        <a id="logo" href="#Home" class="pull-left">
+          <img style="display: inline-block; width: 40px" src="/img/logo.png">
+          <a id="na" style="font-family: Nova Square; margin-left: 10px" class="navbar-brand" href="#Home"> My Portfolio</a>
         </a>
         <button id="na" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -42,22 +44,46 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a id="na"class="nav-link" href="#about"><i style="color:rgb(143, 3, 161); font-size: 20px" class="fas fa-edit"></i> About Me</a>
+              <a id="na"class="nav-link" href="#Home"><i style="color:rgb(250, 7, 108); font-size: 20px" class="fas fa-home"></i> Home</a>
             </li>
             <li class="nav-item">
-              <a id="na" class="nav-link" href="#contact"><i style="color:rgb(143, 3, 161); font-size: 20px" class="far fa-address-card"></i> Contact</a>
+              <a id="na"class="nav-link" href="#about"><i style="color:rgb(250, 7, 108); font-size: 20px" class="fas fa-edit"></i> About Me</a>
+            </li>
+            <li class="nav-item">
+              <a id="na" class="nav-link" href="#contact"><i style="color:rgb(250, 7, 108); font-size: 20px" class="far fa-address-card"></i> Contact</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
     <header id='head' class="masthead text-center text-white">
-              <img style="width: 200px; vertical-align: middle;border-radius: 50%; border-style: none;" class="img-fluid mb-5 d-block mx-auto" src="/img/me.jpg" alt="My profile photo">
+              <img style="width: 200px; vertical-align: middle;border-radius: 50%; border-style: none;" class="img-fluid mb-5 d-block mx-auto" src="/img/me.jpg" alt="Hamza Alwan">
       <div class="masthead-content">
         <div class="container">
-          <h5 id="name" class="masthead-heading mb-0">Hamza Alwan</h5>
-          <hr id="star" class="star-primary">
-          <h6 id="work" class="masthead-subheading mb-0">Software Engineer</h6>
+          <p id="p" aria-label="CodePen">
+            <span data-text="H">H</span>
+            <span data-text="A">A</span>
+            <span data-text="M">M</span>
+            <span data-text="Z">Z</span>
+            <span data-text="A">A</span>
+            <span data-text=" "> </span>
+            <span data-text=" "> </span>
+            <span data-text="A">A</span>
+            <span data-text="L">L</span>
+            <span data-text="W">W</span>
+            <span data-text="A">A</span>
+            <span data-text="N">N</span>
+          </p>
+
+          <hr id="star" class="star-primary"><br>
+          <!-- <h6 id="work" class="masthead-subheading mb-0">Software Engineer</h6> -->
+          
+          <h1>
+            <a href="" id="work" style="text-decoration:none; color: white; cursor: initial;" onclick="return false" class="masthead-subheading mb-0 typewrite" data-period="2000" data-type='[ "I am, a Software Engineer.", "I am Creative.", "I Love Learn.", "I Love to Develop." ]'>
+              <span class="wrap"></span>
+            </a>
+          </h1>
+          
         </div>
       </div>
     </header><p id="about"></p><br><br><br>
@@ -75,9 +101,9 @@
           <div class="col-lg-6 order-lg-1">
             <div class="p-5">
               <h2 style="font-size: 47px; color: rgb(0, 112, 0)" class="display-4">Skills</h2>
-              <p><p style="font-size: 18px; font-weight: bold">Programming Skills</p> JavaScript, Java, NodeJS, Express, React, AngularJS, Mongoose, MySQL, HTML, CSS, etc.
-</p>
-              <p><p style="font-size: 18px; font-weight: bold">Other Skills</p> Autonomous Learning, Problem solving, Teamwork.</p>
+              <p><p style="font-size: 18px; font-weight: bold">Programming Skills</p> JavaScript, NodeJS, Express, React, Angular, MongoDB, OOP, HTML, CSS, etc.
+              </p>
+              <p><p style="font-size: 18px; font-weight: bold">Other Skills</p> Autonomous Learning, Problem Solving, Time Management and Teamwork.</p>
             </div>
           </div>
         </div>
@@ -89,7 +115,7 @@
         <div class="row align-items-center">
           <div class="col-lg-6">
             <div class="p-5">
-              <img id='img' class="img-fluid" src="img/02.jpg" alt="">
+              <img id='img' class="img-fluid" src="img/04.jpg" alt="">
             </div>
           </div>
           <div class="col-lg-6">
@@ -117,52 +143,37 @@
         <div class="col-lg-6 order-lg-1">
           <div class="p-5">
             <h2 style="font-size: 47px; color: rgb(0, 112, 0)" class="display-4">Education and Training</h2>
-            <p><p style="font-size: 18px; font-weight: bold">ReBootKamp</p> A place where I learned programming languages and some of its frameworks such as: JavaScript, Java, NodeJS, Express,
+            <p><p style="font-size: 18px; font-weight: bold"><img style="display: inline-block; width: 40px;" src="/img/rbk_logo.png"> ReBootKamp</p> A place where I learned programming languages and some of its frameworks such as: JavaScript, Java, NodeJS, Express,
             React, AngularJS, Mongoose, MySQL, HTML, CSS, etc.<p> And other technologies such as: Blockchain, Docker, Hyperledger Composer,
             Git, NPM, Continuous Integration, Agile, Scrum, etc.</p>
-            <p style="font-size: 18px; font-weight: bold">Diploma in Business Management & Marketing</p><p>Learned some concepts about business Management and Marketing.
+            <p style="font-size: 18px; font-weight: bold"><img style="display: inline-block; width: 40px;" src="/img/luminus.png"> Luminus Education</p><p>Where i got a Diploma in Business Management & Marketing.
 </p>
 
           </div>
         </div>
       </div>
     </div>
-    </section>
-
-    <section>
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-lg-6">
-            <div class="p-5">
-              <img id='img' class="img-fluid" src="img/04.jpg" alt="">
-            </div>
-          </div>
-          <div class="col-lg-6">
-            <div class="p-5">
-              <h2 style="font-size: 47px; color: rgb(0, 112, 0)" class="display-4">Experience</h2>
-              <p>Lorem i psum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam sit iste esse assumenda
-                amet aperiam exercitationem, ea animi blanditiis recusandae! Ratione voluptatum molestiae adipisci, beatae obcaecati.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section><br><br> 
+    </section><br><br>
 
     <!-- Footer -->
       <hr id="line" class="star-primary"><br>
         <center>
           <h1 id="contact" style="color: rgb(0, 0, 0)" class="display-4">Contact</h1><br>
           <div class="container social-container text-center">
-            <div style="font-family: Acme; font-size: 18px; margin-left: -400px; margin-bottom: -115px">
-            <h4 style="font-family: Righteous; font-size: 22px">You can reach me by:</h4><br>
-            <span><i style="color: rgb(172, 70, 184)" class="far fa-envelope"></i> Email: ihamzaalwan@gmail.com</span><br>
-            <span><i style="color: rgb(172, 70, 184)" class="fas fa-mobile-alt"></i> Phone Number: +962788839964</span>
+            <div style="font-family: Russo One; font-size: 15px; margin-left: -400px; margin-bottom: -142px">
+            <h4 style="font-family: Righteous; font-size: 20px; margin-left: 22px">You can reach me by:</h4><br>
+            <span style="font-size: 18px; text-align: left"><i style="color: rgb(3, 141, 72); font-size: 26px" class="far fa-envelope"></i> ihamzaalwan@gmail.com</span><br><br>
+            <span style="font-size: 18px; text-align: left"><i style="color: rgb(3, 141, 72); font-size: 26px" class="fas fa-mobile-alt"></i> +962788839964</span>
             </div>
             <div style="margin-left: 200px" class="container">
-            <h6 style="font-family: Righteous; font-size: 20px; margin-left: 22px"><i style="color: rgb(206, 0, 0)"class="fab fa-phoenix-squadron"></i> Social Media</h6>  
+              <center>
+            <h6 style="font-family: Righteous; font-size: 20px; margin-left: 22px"><i style="color: rgb(20, 196, 187)"class="fab fa-phoenix-squadron"></i> Social Media</h6>  
             <a href="https://www.facebook.com/ihamzaalwan" target="_blank"class="facebook"><i class="fa fa-facebook"></i>Facebook</a>
-            <a href="https://www.linkedin.com/in/ihamzaalwan" target="_blank" class="linkedin"><i class="fa fa-linkedin"></i>Linkedin</a>
-            <a href="https://github.com/HamzaAlwan" target="_blank" class="github"><i class="fa fa-github"></i>Github</a>
+            <a href="https://www.linkedin.com/in/ihamzaalwan" target="_blank" class="linkedin">
+              <i class="fab fa-linkedin-in"></i>Linkedin</a>
+            <a href="https://github.com/HamzaAlwan" target="_blank" class="github">
+              <i class="fab fa-github"></i>Github</a>
+              </center>
             </div>
           </div>
         </center>
@@ -198,6 +209,63 @@
             scrollTop: $($(this).attr('href')).offset().top - 0
           }, 1100);
         });
+
+        var TxtType = function (el, toRotate, period) {
+          this.toRotate = toRotate;
+          this.el = el;
+          this.loopNum = 0;
+          this.period = parseInt(period, 10) || 2000;
+          this.txt = '';
+          this.tick();
+          this.isDeleting = false;
+        };
+
+        TxtType.prototype.tick = function () {
+          var i = this.loopNum % this.toRotate.length;
+          var fullTxt = this.toRotate[i];
+
+          if (this.isDeleting) {
+            this.txt = fullTxt.substring(0, this.txt.length - 1);
+          } else {
+            this.txt = fullTxt.substring(0, this.txt.length + 1);
+          }
+
+          this.el.innerHTML = '<span class="wrap">' + this.txt + '</span>';
+
+          var that = this;
+          var delta = 200 - Math.random() * 100;
+
+          if (this.isDeleting) { delta /= 2; }
+
+          if (!this.isDeleting && this.txt === fullTxt) {
+            delta = this.period;
+            this.isDeleting = true;
+          } else if (this.isDeleting && this.txt === '') {
+            this.isDeleting = false;
+            this.loopNum++;
+            delta = 500;
+          }
+
+          setTimeout(function () {
+            that.tick();
+          }, delta);
+        };
+
+        window.onload = function () {
+          var elements = document.getElementsByClassName('typewrite');
+          for (var i = 0; i < elements.length; i++) {
+            var toRotate = elements[i].getAttribute('data-type');
+            var period = elements[i].getAttribute('data-period');
+            if (toRotate) {
+              new TxtType(elements[i], JSON.parse(toRotate), period);
+            }
+          }
+          // INJECT CSS
+          var css = document.createElement("style");
+          css.type = "text/css";
+          css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
+          document.body.appendChild(css);
+        };
         });
     </script>
   </body>
